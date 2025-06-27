@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IGDTU</title>
+
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "_EvfzWWQ0NSDojHsj",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+  <section id="header">
+    <a href="#"><img src="/images/logo.png" class="logo" alt=""></a>
+    <h2>IGDTUW LINKS</h2>
+
+    <div>
+      <ul id="navbar">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#jobs">Job Listings</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="alumni_connect.html" id="Alumni_Connect">Join Us</a></li>
+        <!-- Search bar section -->
+        <!-- <li class="search-container">
+                    <input type="text" placeholder="Search Alumni..." id="searchInput">
+                    <button type="button" id="searchButton"><ion-icon name="search"></ion-icon></button>
+                </li> -->
+
+
+
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- home page -->
+  <section id="MainPage">
+    <div class="content">
+      <h1><b>Welcome to the Alumni Forum Of IGDTUW</b></h1>
+      <h4><b>This platform connects alumni, current students, and the administration.</b></h4>
+      <div>
+
+        <button type="button" onclick="window.location.href='registration-page.html'"><span></span>REGISTER</button>
+        <button type="button" onclick="window.location.href='login-Page.html'"><span></span>LOGIN</button>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Sliding text container -->
+  <div class="slider-container">
+    <span class="sliding-text">Welcome to the Alumni Forum of IGDTUW</span>
+  </div>
+
+  <!-- Profile Section -->
+  <!-- <section id="profile">
+        <h2>Your Profile</h2>
+        <div class="profile-card">
+
+            <h3>John Doe</h3>
+            <li>Graduation Year: 2020</li>
+            <li>Current Role: Software Engineer at ABC Corp.</li>
+            <li>Email: john.doe@example.com</li>
+
+
+        </div>
+    </section> -->
+
+  <!-- Events Section -->
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <div class="event">
+
+      <h3>Alumni Reunion 2024</h3>
+      <p>Date: March 15, 2024</p>
+      <p>Location: University Campus</p>
+      <a href="#">Register Now</a>
+    </div>
+    <div class="event">
+      <h3>Webinar: Networking in Tech</h3>
+      <p>Date: October 20, 2024</p>
+      <p>Location: Online</p>
+      <a href="#">Join Webinar</a>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>GALLERY ARCHIVES</h2>
+    <p>Welcome to Our Alumni Gallery</p>
+    <div class="gallery-wall">
+      <div class="fe-box"><img src="images/2.jpg" alt="Gallery Image 1"></div>
+      <div class="fe-box"><img src="images/1.jpg" alt="Gallery Image 2"></div>
+      <div class="fe-box"><img src="images/3.jpg" alt="Gallery Image 3"></div>
+      <div class="fe-box"><img src="images/4.jpg" alt="Gallery Image 4"></div>
+      <div class="fe-box"><img src="images/5.jpg" alt="Gallery Image 5"></div>
+      <div class="fe-box"><img src="images/6.jpg" alt="Gallery Image 6"></div>
+    </div>
+  </section>
+  <!-- Go to Top Button -->
+  <button onclick="scrollToTop()" class="scroll-button top-button"> &#9650;</button>
+
+
+
+
+  <!-- Sponsors Section -->
+  <!-- <section id="Sponsors">
+        <div class="heading"><i><img src="images/our-sponser.png"></i><h2>OUR SPONSORS</h2></div>
+        <div class="sponserSection">
+
+
+
+        </div>
+    </section> -->
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+
+
+          <div class="sponserSection">
+            <div class="heading"><i><img src="images/our-sponser.png"></i>
+              <h3>Our Sponsors</h3>
+            </div>
+            <div class="sponserPart">
+
+
+              <ul class="sponserSlider">
+
+                <li><img src='images/sponsors/millennials.jpg' /></li>
+                <li><img src='images/sponsors/vacobinary-logo.jpg' /></li>
+                <li><img src='images/sponsors/vayam.jpg' /></li>
+                <li><img src='images/sponsors/gst-robo-logo.jpg' /></li>
+                <li><img src='images/sponsors/IRCON Logo1.jpg' /></li>
+                <li><img src='images/sponsors/x-igl.jpg' /></li>
+                <li><img src='images/sponsors/fleetrobo.jpg' /></li>
+                <li><img src='images/sponsors/ptc-india-logo.jpg' /></li>
+                <li><img src='images/sponsors/gail_logo.jpg' /></li>
+                <li><img src='images/sponsors/tdi.jpg' /></li>
+                <li><img src='images/sponsors/powergrid-logo.jpg' /></li>
+                <li><img src='images/sponsors/eil.jpg' /></li>
+                <li><img src='images/sponsors/binary-semantics-logo.jpg' /></li>
+                <li><img src='images/sponsors/eesl-logo.jpg' /></li>
+                <li><img src='images/sponsors/Paytm-Logo.jpg' /></li>
+                <li><img src='images/sponsors/nhdc-logo.jpg' /></li>
+                <li><img src='images/sponsors/BPCL-logo.png' /></li>
+              </ul>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="whatTheySection">
+    <div class="container">
+      <div class="row">
+
+
+
+        <h1 class="animated" data-animation="flipInX" data-animation-delay="100">What they Say</h1>
+        <div class=" widthBreak">
+          <ul class="whatSlider">
+
+            <li>
+              <div class="row">
+
+                <div class="col-left"> <img src="images/Kapil Sibal.png"> </div>
+                <div class="col-right"><i class="quoteTop"></i><i class="quoteBottom"></i>
+                  <p>Mr. Kapil Sibal, Hon'able Minister for IT, Communications and Law and Justice<br /><br />"Engineers
+                    and Engineering, in the context of the modern century, is a vocation that is not just respected but
+                    will be the back bone of the economy in the years to come - not just the Indian economy but the
+                    global economy.<br /> <br />The nature of technology and the advances of technology have been so
+                    phenomenal in the last 20 - 30 years that we are going to see a change; an exponential change in the
+                    way we do things.<br /> <br />It is the engineers who are going to create the architecture for the
+                    new 21st century"</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="row">
+
+                <div class="col-left"> <img src="images/R-P-Agarwal.jpg"> </div>
+                <div class="col-right"><i class="quoteTop"></i><i class="quoteBottom"></i>
+                  <p><br />Mr. R. P. Agarwal, Chairman of the Governing Board</p>
+                  <p>Today when most of the surveys indicate that only 30% of the engineering graduates are employable,
+                    DTU and DCE can take pride in saying that we have a 100% placement record throughout with the
+                    packages going upto 60 L pa"<br /> <br />"I sincerely hope that all alumni and their families will
+                    have a very successful life serving your motherland with distinction and pride and would bring
+                    further laurels to your alma mater</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="row">
+
+                <div class="col-left"> <img src="images/JK Bhasin.png"> </div>
+                <div class="col-right"><i class="quoteTop"></i><i class="quoteBottom"></i>
+                  <p><br />Mr. J. K. Bhasin, former chairman CEA</p>
+                  <p>
+                  <p>You will find our DCE boys in every branch of the Government whether it is the Defense Services or
+                    the Railways or similar departments. They are in un-imaginable places. You name a department and you
+                    shall find DCE and DP students there</p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Get in touch -->
+  <div class="contact-container">
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.834309266168!2d77.22972667533686!3d28.66467942564717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd0683919c3b%3A0xf5fc331b74c2b9e2!2sIndira%20Gandhi%20Delhi%20Technical%20University%20for%20Women!5e0!3m2!1sen!2sin!4v1732163363724!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contact-form">
+      <h2>GET IN TOUCH WITH US</h2>
+      <form id="contactForm">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Type Here...." required />
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Type Here...." required />
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Type Here...." required></textarea>
+        <button type="button" onclick="sendMail()">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- footer -->
+  <footer class="mainFooter"
+    style="padding-top:60px; background: url(assets/images/footer_bg3.jpeg) no-repeat; background-size: cover; background-color:#E3E6F3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="headerContent">
+            <h2 style="color: #000"><span><b>Indira Gandhi Delhi Technical University For Women</b></span></h2>
+            <h5 style="font-family: 'Playfair Display', serif; color: #000"><span>(UNDER DELHI VIDE ACT 9 OF 2012, GOVT.
+                OF NCT OF DELHI)</span></h5>
+            <h6 style="font-family: 'Playfair Display', serif; color: #000"><span>ISO 9001:2015 Certified
+                University</span></h6>
+            <h6 style="font-family: 'Playfair Display', serif; color:#000"><span>JAMES CHURCH, NEW CHURCH ROAD, KASHMERE
+                GATE<br> DELHI -110006.</span></h6>
+          </div>
+          <div class="social-media1">
+            <ul>
+              <li><a href="https://www.facebook.com/igdtuw.delhi.5"><ion-icon name="logo-facebook"></ion-icon></a></li>
+              <li><a href="https://www.youtube.com/channel/UCKmYhevZ59gJJP0ZbpReBKA/featured"><ion-icon
+                    name="logo-youtube"></ion-icon></a></li>
+              <li><a href="https://www.instagram.com/igdtuwrocks?r=nametag"><ion-icon
+                    name="logo-instagram"></ion-icon></a></li>
+              <li><a href="https://twitter.com/IGDTUW_Delhi"><ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyRight" style="padding-top: 5px;">
+        <p style="font-size: 14px;">Copyright @IGDTUW - Designed &amp; Maintained by <a style="color: #000;"
+            href="https://www.linkedin.com/in/nidhi-chaukiyal-28b514290?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BtKqhIik2TLesMTTIYKMyXQ%3D%3D">Nidhi
+            Chaukiyal & Riya</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

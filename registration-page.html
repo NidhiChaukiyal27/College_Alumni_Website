@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Member Registration</h1>
+            <p class="note">Please send an email to <a href="mailto:mymembership@igdtualumni.org">mymembership@igdtualumni.org</a> if you have any queries.</p>
+        </header>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="registerAs">Register As <span>*</span></label>
+                <select id="registerAs" name="registerAs" required>
+                    <option value="Alumni">Alumni</option>
+                    <option value="Student">Student</option>
+                    <option value="alumni">Alumni</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="chapter">Chapter <span>*</span></label>
+                <select id="chapter" name="chapter" required>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dob">DOB (dd/mm/yyyy) <span>*</span></label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Title <span>*</span></label>
+                <select id="title" name="title" required>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Ms.">Ms.</option>
+                    <option value="Prof">Prof</option>
+                    <option value="Dr">Dr</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="firstName">First Name <span>*</span></label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="middleName">Middle Name</label>
+                <input type="text" id="middleName" name="middleName">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+            <div class="form-group">
+                <label for="photograph">Photograph</label>
+                <input type="file" id="photograph" name="photograph">
+            </div>
+            <div class="form-group">
+                <label for="password">Password <span>*</span></label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password <span>*</span></label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email ID <span>*</span></label>
+                <input type="email" id="email" name="email" required>
+                <small>(Please use your personal email ID as User Name. Use lowercase letters only.)</small>
+            </div>
+            <div class="form-group">
+                <label for="confirmEmail">Confirm Email ID <span>*</span></label>
+                <input type="email" id="confirmEmail" name="confirmEmail" required>
+            </div>
+            <!-- Mobile Number -->
+            <div class="form-group">
+                <label for="mobileNo">Mobile Number<span>*</span></label>
+                <input type="text" id="mobileNo" name="mobileNo" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmMobileNo">Confirm Mobile Number<span>*</span></label>
+                <input type="text" id="confirmMobileNo" name="confirmMobileNo" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="countryCode">Country Code <span>*</span></label>
+                <select id="countryCode" name="countryCode" required>
+                    <option value="India">India (+91)</option>
+                    <option value="USA">USA (+1)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="course">Course</label>
+                <select id="course" name="course" required>
+                    <option value="BTech">BTech</option>
+                    <option value="MTech">MTech</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="degree">Degree</label>
+                <select id="degree" name="degree" required>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Science">Science</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="passingYear">Year of Passing</label>
+                <select id="passingYear" name="passingYear" required>
+                    <option value="">Select Year</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="rollNo">Roll Number<span>*</span></label>
+                <input type="text" id="rollNo" name="rollNo" required>
+            </div>
+            <div class="form-group">
+                <label for="volunteer">Register As Volunteer<span>*</span></label>
+                <select id="volunteer" name="volunteer" required>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="communicationAddress">Communication Address<span>*</span></label>
+                <input type="text" id="communicationAddress" name="communicationAddress" required>
+            </div>
+            <div class="form-group">
+                <label for="communicationPin">Communication Pin/Zip Code<span>*</span></label>
+                <input type="text" id="communicationPin" name="communicationPin" required>
+            </div>
+            <div class="form-group">
+                <label for="permanentAddress">Permanent Address<span>*</span></label>
+                <input type="text" id="permanentAddress" name="permanentAddress" required>
+            </div>
+            <div class="form-group">
+                <label for="permanentPin">Permanent Pin/Zip Code</label>
+                <input type="text" id="permanentPin" name="permanentPin" required>
+            </div>
+            <div class="form-group">
+                <label for="sector">Worked with/Working with Sector</label>
+                <select id="sector" name="sector" required>
+                    <option value="Govt">Govt</option>
+                    <option value="Private">Private</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="linkedin">LinkedIn URL</label>
+                <input type="url" id="linkedin" name="linkedin">
+            </div>
+            <div class="form-group">
+                <label for="referredBy">Referred By</label>
+                <input type="text" id="referredBy" name="referredBy">
+            </div>
+            <div class="form-group checkbox-container">
+                <input type="checkbox" id="notBot" name="notBot" required>
+                <label for="notBot">I'm not a bot</label>
+            </div>
+            
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
